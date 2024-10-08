@@ -9,20 +9,20 @@
 
 <?php
 
-$agora = new DateTime("now", new DateTimeZone("America/Sao_Paulo"));
+$agora = new DateTime("now", new DateTimeZone("Asia/Beirut"));
 $horaAtual = $agora->format('H');
 
 $mensagemSaudacao = '';
 $imagemSaudacao = '';
 
 if ($horaAtual < 12) {
-    $mensagemSaudacao = "Olá, bom dia!";
+    $mensagemSaudacao = "bom dia!";
     $imagemSaudacao = "bomdia.jpg"; 
 } elseif ($horaAtual < 18) {
-    $mensagemSaudacao = "Boa tarde!";
-    $imagemSaudacao = "bomdia.jpg"; 
+    $mensagemSaudacao = "boa tarde!";
+    $imagemSaudacao = "boatarde.webp"; 
 } else {
-    $mensagemSaudacao = "Boa noite!";
+    $mensagemSaudacao = "boa noite!";
     $imagemSaudacao = "boanoite.jpg"; 
 }
 ?>
