@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        echo "<img src='https://picsum.photos/500/600'> </img>";
+        echo "<h2>Imagem exercício 1</h2>";
+    ?>
 </body>
 </html>
