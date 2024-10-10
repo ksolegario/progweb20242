@@ -12,9 +12,6 @@
 $agora = new DateTime("now", new DateTimeZone("Asia/Beirut"));
 $horaAtual = $agora->format('H');
 
-$mensagemSaudacao = '';
-$imagemSaudacao = '';
-
 if ($horaAtual < 12) {
     $mensagemSaudacao = "bom dia!";
     $imagemSaudacao = "bomdia.jpg"; 
